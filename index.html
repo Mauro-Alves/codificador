@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Decodificador</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div class="header-content">
+      <img src="log_New_Fin2.png" alt="Logo da empresa">
+      <h1>Codificador</h1>
+      <a href="https://www.alura.com.br/" target="_blank">
+        <img src="alura-logo.svg" alt="Logo da Alura">
+      </a>
+    </div>
+  </header>
+
+<body>
+	<div class="container">
+		<div class="left-side">
+			<textarea id="text-area" placeholder="Digite seu texto"></textarea>
+			<div>
+				<button id="btnEncript" onclick="resetTextArea()">Codificar</button>
+				<button id="btnDecript" onclick="resetTextArea()">Decodificar</button>
+			</div>
+		</div>
+		
+		<div class="right-side">
+			<p id="response"></p>
+			<img id="imagem" src="1.png" alt="Imagem">
+			<button id="btnCopy">Copiar Texto</button>
+		</div>
+	</div>
+</body>
+
+<footer>
+	<div class="footer">
+		<div class="column">
+		  <img src="Eu.jpg" alt="Foto de perfil" class="profile-picture">
+		</div>
+		<div class="column">
+		  <p id="footer">Mauro Alves</p>
+		</div>
+		<div class="column">
+		  <p id="footer">+55 11 98201-7424</p>
+		</div>
+	  </div>
+</footer>
+</html>
