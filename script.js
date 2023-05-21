@@ -10,7 +10,7 @@ function codificar() {
       { letra: /e/g, por: "enter" },
       { letra: /i/g, por: "imes" },
       { letra: /a/g, por: "ai" },
-      { letra: /0/g, por: "ober" },
+      { letra: /o/g, por: "ober" },
       { letra: /u/g, por: "ufat" }
     ];
   
